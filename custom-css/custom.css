@@ -1,0 +1,440 @@
+/****CSS FOR OVERLAY, NAVBAR, SMALLER MEDIUM TO SMALL SCREENS ******/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ff5733;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #ffc305 !important;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {
+    overflow-y: auto;
+  }
+  .overlay a {
+    font-size: 20px;
+  }
+
+}
+/******END OF CSS FOR OVERLAY, NAVBAR, SMALLER MEDIUM TO SMALL SCREENS *********/
+
+/************CSS FOR BODY(SECTIONS, PARALLAX EFFECT SCROLLING)  *****************/
+
+
+.container88 {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  position: relative !important;
+  width: 100%;
+   height: 100%;
+}
+.container88 section {
+  width: 100%;
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.container88 section:nth-child(1) .image {
+  background-image: url(../img/banner5.JPG);
+}
+
+
+.container88 section .image {
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 500;
+
+}
+  .container88 section .eventinfobg {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+
+  }
+
+  .container88 section .programmebg {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+
+  }
+
+
+  .container88 section .randombg {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 500;
+
+  }
+
+
+.container88 section .stuff {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  justify-content: center;
+  text-align: center;
+  z-index: 1000;
+  color: #ffffff;
+  margin: 0 auto;
+  /*font-size: 36px; */
+  position: relative;
+}
+
+.container88 section .stuff66 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  justify-content: center;
+  text-align: left;
+  z-index: 1000;
+  color: #ffffff;
+  margin: 0 auto;
+  /*font-size: 36px; */
+  position: relative;
+}
+
+
+.container88 section .stuff77 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 100%;
+  max-width: 70%;
+  justify-content: center;
+  text-align: ;
+  z-index: 1000;
+  color: #ffffff;
+  margin: 0 auto;
+  /*font-size: 36px; */
+  position: relative;
+}
+
+/*.container88 section .stuff66:before, .container88 section .stuff66:after {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background-color:#ffffff;
+  content: "";
+  margin: 30px 0;
+
+
+} */
+
+/************END OF CSS FOR BODY(SECTIONS, PARALLAX EFFECT SCROLLING)  *****************/
+
+
+
+
+
+/************BODY CSS *****************/
+a.spacing {
+  letter-spacing: 4px;
+}
+
+button.hb:focus {
+  outline: 0;
+}
+
+.sixtyfive {
+  height: 65px;
+}
+
+.navbar {
+  height: 65px;
+  background-color: #ff5733;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.img-opacity {
+  opacity: 0.5;
+}
+
+h1.header {
+  font-weight: bolder;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 75px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  line-height: 1.0em;
+}
+
+h1.subheader {
+  font-weight: bolder;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.50em;
+  color: #ffffff;
+  line-height: 1.0em;
+}
+
+p.subtext {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 75px;
+  line-height: 1.0em;
+  font-weight: normal;
+  letter-spacing: 0.01em;
+
+
+}
+
+p.subinfo1 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 115%;
+}
+
+p.subinfo2 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 115%;
+}
+
+p.subinfo22 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+p.subinfo3 {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.30em;
+  font-size: 115%;
+}
+
+
+
+
+.col-5 {
+  border-top: 1.5px white solid;
+  border-right: 1.5px white solid;
+  height: 40px;
+}
+
+
+.col-6 {
+  border-top: 1.5px white solid;
+  height: 40px;
+
+}
+
+.col-44 {
+  border-top: 1.5px white solid;
+  border-right: 1.5px white solid;
+  height: 40px;
+}
+
+.col-4 {
+  border-top: 1.5px white solid;
+  border-right: 1.5px white solid;
+  height: 40px;
+}
+
+.col-3 {
+  border-top: 1.5px white solid;
+  height: 40px;
+}
+
+div.border-r {
+  border-right: 1.5px white solid;
+}
+
+div.border-b {
+  border-bottom: 1.5px white solid;
+}
+
+div.border-t {
+  border-top: 1.5px white solid;
+}
+
+
+div.border-r-none {
+  border-right: 0;
+}
+
+.col-12 {
+  border-bottom: 1.5px white solid;
+  height: 40px;
+}
+
+
+
+.bgbrand {
+  background-color: #c70039;
+}
+
+.eventinfobg {
+  background-color: #c70039;
+}
+
+.programmebg {
+  background-color: #ff5733;
+}
+
+.randombg {
+  background-color: #ffc305;
+}
+
+
+
+
+@media (max-width: 575.98px) {
+  h1.header {
+      font-size: 35px;
+  }
+
+  p.subtext {
+      font-size: 35px;
+  }
+
+  p.subinfo3 {
+      font-size: 80%;
+  }
+
+  p.subinfo2 {
+      font-size: 90%;
+  }
+
+  p.subinfo22 {
+      font-size: 70%;
+  }
+
+
+
+
+}
+
+@media (max-width: 767.98px) {
+  h1.header {
+      font-size: 35px;
+  }
+
+  p.subtext {
+      font-size: 35px;
+  }
+
+  p.subinfo3 {
+      font-size: 80%;
+
+  }
+
+  p.subinfo2 {
+      font-size: 85%;
+  }
+
+
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container88 {
+  position: relative;
+}
+
+
+
+li a {
+
+  font-size: 115%;
+
+}
+
+li a:hover {
+  color: #ffc305 !important;
+  font-size: 115%;
+}
+
+li a.active {
+  color: #ffc305 !important;
+}
+
+
+.transparent-input {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+button {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+.no-border {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.form-control {
+  outline: none !important;
+  box-shadow: none !important;
+
+}
+
+input::placeholder {
+  color: white !important;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+form {
+  height: 100%;
+  width: 100%;
+}
